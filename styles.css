@@ -67,3 +67,7 @@ footer {
     padding: 5px;
     text-align: center;
 }
+video {
+    width: 90%;
+    height: auto;
+}
