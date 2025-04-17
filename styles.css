@@ -71,3 +71,57 @@ video {
     width: 90%;
     height: auto;
 }
+
+table {
+    border-collapse: collapse;
+    border: 8px ridge #e2e2e2;
+    margin: 0 auto;
+}
+thead th {
+    background-color: #303030;
+}
+tbody > tr:nth-of-type(even) {
+    background-color: #3d3d3d;
+}
+tbody > tr:nth-of-type(odd) {
+    background-color: #575757;
+}
+
+th, td {
+    border: 8px ridge #e2e2e2;
+    padding: 8px 10px;
+}
+
+.star {
+    font-size: 25px;
+    color: yellow;
+}
+
+form *{
+    font-size: 30px;
+    display: block;
+    margin: 5px auto;
+}
+form {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+figure {
+    padding: 10px;
+    height: auto;
+    background-color: #ff7a7a;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+figcaption {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff5a5a;
+    margin: 10px;
+}
+.card {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+}

@@ -34,9 +34,171 @@
         <div id="cabinetsides">
             <main>
 
-                <p>comparison table, fan form, honourable mentions</p>
-                
+                <h1>Vote!</h1>
 
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Game Title</th>
+                            <th scope="col">Genre</th>
+                            <th scope="col">Platform</th>
+                            <th scope="col">Year Released</th>
+                            <th scope="col">Difficulty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">The Legend of Zelda: Ocarina of Time</Time></th>
+                            <td>Action-Adventure</td>
+                            <td>Nintendo 64</td>
+                            <td>1998</td>
+                            <td class="star">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Super Mario 64</th>
+                            <td>3D Platformer</td>
+                            <td>Nintendo 64</td>
+                            <td>1996</td>
+                            <td class="star">★★★☆☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Chrono Trigger</th>
+                            <td>JRPG</td>
+                            <td>SNES</td>
+                            <td>1995</td>
+                            <td class="star">★★★☆☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Doom</th>
+                            <td>First-Person Shooter</td>
+                            <td>PC (MS-DOS)</td>
+                            <td>1993</td>
+                            <td class="star">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sonic the Hedgehog 2</th>
+                            <td>Platformer</td>
+                            <td>Sega Genesis</td>
+                            <td>1992</td>
+                            <td class="star">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Street Fighter II</th>
+                            <td>Fighting</td>
+                            <td>Arcade / SNES</td>
+                            <td>1991</td>
+                            <td class="star">★★★★★</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tetris</th>
+                            <td>Puzzle</td>
+                            <td>Game Boy</td>
+                            <td>1984</td>
+                            <td class="star">★★★★★</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Metroid</th>
+                            <td>Action-Exploration</td>
+                            <td>NES</td>
+                            <td>1986</td>
+                            <td class="star">★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Final Fantasy VII</th>
+                            <td>JRPG</td>
+                            <td>PlayStation</td>
+                            <td>1997</td>
+                            <td class="star">★★★☆☆</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pac-Man</th>
+                            <td>Maze / Arcade</td>
+                            <td>Arcade</td>
+                            <td>1980</td>
+                            <td class="star">★★★★★</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <form id="form">
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name...">
+
+                    <label for="game">Favorite game:</label>
+                    <input type="text" id="game" placeholder="Enter your favorite game...">
+
+                    <label for="opinion">Why you love it:</label>
+                    <textarea id="opinion"></textarea>
+
+                    <label for="Nostalgia">Nostalgia Rating:</label>
+                    <select id="Nostalgia">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+
+                    <button id="submit">Submit</button>
+
+                </form>
+
+                <h1>Honorable Mentions</h1>
+                <div class="mentions">
+                    <div class="card">
+                        <figure>
+                            <figcaption>Sid Meier's Civilization (1991)</figcaption>
+                            <img src="src/civ.jpg">
+                            <figcaption>
+                                Build an empire to stand the test of time. 
+                                Diplomacy, warfare, and strategy combine in the game that launched a genre.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <figcaption>Touhou: Embodiment of Scarlet Devil (2002)</figcaption>
+                            <img src="src/touhou.png">
+                            <figcaption>
+                                Dodge bullets and unleash magic in this fast-paced indie shoot-'em-up! Gorgeous sprites, intense patterns, and a legendary fanbase.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <figcaption>Myst (1993)</figcaption>
+                            <img src="src/myst.png">
+                            <figcaption>
+                                A hauntingly beautiful puzzle adventure. Explore a surreal island and unravel a mystery one mind-bending puzzle at a time.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <figcaption>Warcraft: Orcs & Humans (1994)</figcaption>
+                            <img src="src/warcraft.png">
+                            <figcaption>
+                                Before World of Warcraft, there was Warcraft. Command armies, gather resources, and fight for dominance in this RTS classic.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <figcaption>SimCity 2000 (1993)</figcaption>
+                            <img src="src/sim.png">
+                            <figcaption>
+                                Plan, build, and rule your dream city. 
+                                From power grids to natural disasters, this city-builder rewards strategy and creativity.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </main>
         </div>
 
